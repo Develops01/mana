@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "/node_modules/vazirmatn/Vazirmatn-font-face.css";
+
+body {
+  font-family: Vazirmatn, sans-serif;
+}
+
+.button01 {
+  position: relative;
+  min-width: 8rem;
+  margin: 0 0.2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  cursor: pointer;
+  a {
+    position: relative;
+    z-index: -1;
+    display: block;
+    padding: 0.8rem 2rem;
+  }
+  a {
+    border-radius: 0.5rem;
+    background: linear-gradient(135deg, #4bc0c8, #06d6a0, #4bc0c8);
+    transition: 0.3s;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -10%;
+      width: 95%;
+      height: 30%;
+      background: inherit;
+      transform: translateX(-50%);
+      filter: blur(10px);
+      opacity: 0;
+      transition: 0.3s;
+    }
+  }
+  &:hover {
+    a {
+      transform: translateY(-6px);
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
