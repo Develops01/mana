@@ -1,5 +1,5 @@
 <template>
-  <nav dir="rtl" class="fixed w-full p-6 bg-white shadow-md">
+  <nav dir="rtl" class="fixed w-full z-30 p-6 bg-white shadow-md">
     <div class="flex items-center justify-between">
       <!-- Header logo -->
       <div>
@@ -32,28 +32,28 @@
       <div class="hidden md:block">
         <ul class="flex gap-10 md:text-xl text-sm">
           <li>
-            <a href="#" class="text-manaGrey hover:text-manaNavy2 p-2">خانه</a>
+            <a href="#" class="text-manaGray hover:text-manaNavy2 p-2">خانه</a>
           </li>
           <li>
-            <a href="#" class="text-manaGrey hover:text-manaNavy2 p-2">خدمات</a>
+            <a href="#" class="text-manaGray hover:text-manaNavy2 p-2">خدمات</a>
           </li>
           <li>
-            <a href="#" class="text-manaGrey hover:text-manaNavy2 p-2"
+            <a href="#" class="text-manaGray hover:text-manaNavy2 p-2"
               >دوره ها</a
             >
           </li>
           <li>
-            <a href="#" class="text-manaGrey hover:text-manaNavy2 p-2"
+            <a href="#" class="text-manaGray hover:text-manaNavy2 p-2"
               >نمونه کار</a
             >
           </li>
           <li>
-            <a href="#" class="text-manaGrey hover:text-manaNavy2 p-2"
+            <a href="#" class="text-manaGray hover:text-manaNavy2 p-2"
               >دریافت سفارش</a
             >
           </li>
           <li>
-            <a href="#" class="text-manaGrey hover:text-manaNavy2 p-2"
+            <a href="#" class="text-manaGray hover:text-manaNavy2 p-2"
               >مقالات</a
             >
           </li>
@@ -133,7 +133,7 @@
             <a
               href="#"
               @click="isOpen = false"
-              class="my-4 inline-block text-lg text-manaGrey"
+              class="my-4 inline-block text-lg text-manaGray"
               >خانه</a
             >
           </li>
@@ -141,7 +141,7 @@
             <a
               href="#"
               @click="isOpen = false"
-              class="my-4 inline-block text-lg text-manaGrey"
+              class="my-4 inline-block text-lg text-manaGray"
               >خدمات</a
             >
           </li>
@@ -149,7 +149,7 @@
             <a
               href="#"
               @click="isOpen = false"
-              class="my-4 inline-block text-lg text-manaGrey"
+              class="my-4 inline-block text-lg text-manaGray"
               >دوره ها</a
             >
           </li>
@@ -157,7 +157,7 @@
             <a
               href="#"
               @click="isOpen = false"
-              class="my-4 inline-block text-lg text-manaGrey"
+              class="my-4 inline-block text-lg text-manaGray"
               >نمونه کار</a
             >
           </li>
@@ -165,7 +165,7 @@
             <a
               href="#"
               @click="isOpen = false"
-              class="my-4 inline-block text-lg text-manaGrey"
+              class="my-4 inline-block text-lg text-manaGray"
               >دریافت سفارش</a
             >
           </li>
@@ -173,7 +173,7 @@
             <a
               href="#"
               @click="isOpen = false"
-              class="my-4 inline-block text-lg text-manaGrey"
+              class="my-4 inline-block text-lg text-manaGray"
               >مقالات</a
             >
           </li>

@@ -22,7 +22,7 @@ module.exports = {
         manaGreen2: "#05b083",
         manaRed: "#ef476f",
         manaBlack: "#424242",
-        manaGrey: "#757575",
+        manaGray: "#757575",
         manaWhite: "#f5f5f5",
         manaWhite2: "#e0e0e0",
       },

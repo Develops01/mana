@@ -3,4 +3,5 @@
   <Nav />
   <Hero />
   <AboutUs />
+  <Service />
 </template>

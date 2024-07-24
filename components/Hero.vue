@@ -12,7 +12,7 @@
           ? با کلی امکانات داشته باشم
         </p>
         <p
-          class="leading-loose text-3xl md:text-4xl text-manaGrey font-semibold"
+          class="leading-loose text-3xl md:text-4xl text-manaGray font-semibold"
         >
           جواب سوالت همین جاست
         </p>
