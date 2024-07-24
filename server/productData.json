@@ -1,0 +1,52 @@
+{
+  "productsData": [
+    {
+      "id": 1,
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/seo.svg",
+      "category": "بازاریابی و فروش",
+      "description": "دوره آمـوزشـی مهـارت‌هـای حرفـه‌ای ارتباط بـا مشتریـان مختـص کارکنان و فروشنده‌ها",
+      "price": "۱۷۰,۰۰۰ تومان",
+      "timer": "۰۳:۴۳:۰۵"
+    },
+    {
+      "id": 2,
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture(1).svg",
+      "category": "توسعه فردی و موفقیت",
+      "description": "دوره آمـوزشـی مهـارت‌هـای حرفـه‌ای ارتباط بـا مشتریـان مختـص کارکنان و فروشنده‌ها",
+      "price": "۱۷۰,۰۰۰ تومان",
+      "timer": "۰۳:۴۳:۰۵"
+    },
+    {
+      "id": 3,
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture(2).svg",
+      "category": "تکنیک‌های مهندسی",
+      "description": "دوره آمـوزشــی SPC کنتــرل فرآینــد آمــــــــــــــــاری (Statistical Process Control)",
+      "price": "۱۷۰,۰۰۰ تومان",
+      "timer": "۰۳:۴۳:۰۵"
+    },
+    {
+      "id": 4,
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture(3).svg",
+      "category": "مدیریتی",
+      "description": "دوره آموزشی جـادوی سیستم‌سازی برای کسب وکار",
+      "price": "۱۷۰,۰۰۰ تومان",
+      "timer": "۰۳:۴۳:۰۵"
+    },
+    {
+      "id": 5,
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/marketing.png",
+      "category": "کسب و کار",
+      "description": "دوره آمــوزشــی اصــــول و قــوانیــــن نگارش چک (مطابق قوانیـن جـدیـد)",
+      "price": "۱۷۰,۰۰۰ تومان",
+      "timer": "۰۳:۴۳:۰۵"
+    },
+    {
+      "id": 6,
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture.svg",
+      "category": "رایگان",
+      "description": "| SEO چیست | آموزش بهینه سازی سایت برای موتورهای جستجو",
+      "price": "۱۷۰,۰۰۰ تومان",
+      "timer": "۰۳:۴۳:۰۵"
+    }
+  ]
+}

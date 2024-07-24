@@ -4,4 +4,5 @@
   <Hero />
   <AboutUs />
   <Service />
+  <ProductSlider />
 </template>

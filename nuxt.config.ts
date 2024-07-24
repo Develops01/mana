@@ -3,10 +3,13 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css", "@fontsource/vazirmatn/arabic.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  modules: ["vue3-carousel-nuxt"],
 });

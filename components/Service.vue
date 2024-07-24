@@ -22,8 +22,8 @@ const services = serviceData.serviceList;
       >
         <img class="absolute -top-12" :src="service.picture" alt="" />
         <div class="flex flex-col flex-grow justify-center items-center">
-          <p>{{ service.title }}</p>
-          <p>{{ service.description }}</p>
+          <p class="text-2xl text-manaNavy2 my-1">{{ service.title }}</p>
+          <p class="text-manaGray">{{ service.description }}</p>
         </div>
         <div class="mt-4">
           <button class="button01"><a href="#">توضیحات بیشتر</a></button>
