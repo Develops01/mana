@@ -5,4 +5,10 @@
   <AboutUs />
   <Service />
   <ProductSlider />
+  <Samples />
+  <Form />
+  <Testimonials />
+  <HomeBlogSlider />
+  <EmailSub />
+  <Footer />
 </template>

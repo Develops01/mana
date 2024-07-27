@@ -1,10 +1,13 @@
 <template>
   <div
-    class="flex py-4 gap-2 text-center flex-col items-center justify-center w-full"
+    class="flex py-10 gap-2 text-center flex-col items-center justify-center w-full"
   >
-    <p class="md:text-4xl text-3xl text-manaGreen">جـدیـدتـریــن دوره‌هــــا</p>
+    <p class="md:text-4xl text-3xl text-manaGreen">
+      آخرین مقـالات مانـا افــزار
+    </p>
     <p class="text-lg text-manaGray">
-      ما در تلاشیم تا آموزشهای کاربردی را برای دوستداران به آموزش، مهیا سازیم.
+      نوشتن کار جالبیه که از هزاران سال همراه ما بوده و کمک کرده تا همیشه به روز
+      باشیم
     </p>
   </div>
   <Swiper
@@ -44,7 +47,7 @@
         />
         <div class="px-6 py-4 relative flex flex-col items-center w-full">
           <p
-            class="font-bold py-2 px-5 bg-manaRed rounded-full text-white mb-2 absolute -top-6"
+            class="font-bold py-2 px-5 bg-manaWhite2 text-manaGray rounded-full text-manaGraymb-2 absolute -top-6"
           >
             {{ product.category }}
           </p>
@@ -55,21 +58,11 @@
             {{ product.description }}
           </p>
         </div>
-        <div class="px-6 py-4 flex justify-center space-x-2">
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-          >
-            {{ product.price }}
-          </span>
-          <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-          >
-            {{ product.timer }} ⌛
-          </span>
-        </div>
-        <div class="px-6 py-4 text-center w-full">
+        <div
+          class="flex justify-center items-end pb-3 h-full px-6 text-center w-full"
+        >
           <button class="button01">
-            <a href="#">مشاهده دوره</a>
+            <a href="#">مطالعه</a>
           </button>
         </div>
       </div>
@@ -80,7 +73,7 @@
   </Swiper>
   <div class="w-full flex justify-center">
     <button class="button01">
-      <a href="#">دوره‌هــــای اموزشی بیشتر</a>
+      <a href="#">مقـالات بیشتر</a>
     </button>
   </div>
 </template>
