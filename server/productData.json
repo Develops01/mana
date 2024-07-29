@@ -2,7 +2,7 @@
   "productsData": [
     {
       "id": 1,
-      "img": "http://localhost:3000/_nuxt/assets/image/slider/seo.svg",
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture(8).svg",
       "category": "بازاریابی و فروش",
       "description": "دوره آمـوزشـی مهـارت‌هـای حرفـه‌ای ارتباط بـا مشتریـان مختـص کارکنان و فروشنده‌ها",
       "price": "۱۷۰,۰۰۰ تومان",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "img": "http://localhost:3000/_nuxt/assets/image/slider/marketing.png",
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture(10).png",
       "category": "کسب و کار",
       "description": "دوره آمــوزشــی اصــــول و قــوانیــــن نگارش چک (مطابق قوانیـن جـدیـد)",
       "price": "۱۷۰,۰۰۰ تومان",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture.svg",
+      "img": "http://localhost:3000/_nuxt/assets/image/slider/Picture(9).svg",
       "category": "رایگان",
       "description": "| SEO چیست | آموزش بهینه سازی سایت برای موتورهای جستجو",
       "price": "۱۷۰,۰۰۰ تومان",
