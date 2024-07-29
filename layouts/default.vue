@@ -1,5 +1,8 @@
 <template>
   <Nav />
-  <slot />
+  <div class="pt-28"></div>
+  <!-- <PortfolioHeader /> -->
+  <PortfolioPagination />
+  <!-- <slot /> -->
   <Footer />
 </template>

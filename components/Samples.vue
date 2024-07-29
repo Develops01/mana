@@ -10,7 +10,7 @@
     <div class="flex gap-10 flex-wrap justify-center">
       <div class="portfolio-item rounded-3xl relative m-4 w-[350px] h-[250px]">
         <img
-          src="/assets/image/portofolio/portofolio 2.svg"
+          src="/assets/image/portofolio/portofolio2.svg"
           alt="portfolio1"
           class="object-cover rounded-3xl w-full h-full"
         />
@@ -20,7 +20,7 @@
       </div>
       <div class="portfolio-item rounded-3xl relative m-4 w-[350px] h-[250px]">
         <img
-          src="/assets/image/portofolio/portofolio 3.svg"
+          src="/assets/image/portofolio/portofolio3.svg"
           alt="portfolio1"
           class="object-cover rounded-3xl w-full h-full"
         />
@@ -30,7 +30,7 @@
       </div>
       <div class="portfolio-item rounded-3xl relative m-4 w-[350px] h-[250px]">
         <img
-          src="/assets/image/portofolio/portofolio 1.svg"
+          src="/assets/image/portofolio/portofolio1.svg"
           alt="portfolio1"
           class="object-cover rounded-3xl w-full h-full"
         />

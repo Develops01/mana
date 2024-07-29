@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full justify-center flex md:flex-row flex-col gap-20 pt-[8rem]">
+  <div class="w-full justify-center flex md:flex-row flex-col gap-20">
     <div><img src="/assets/image/Slider_Picture_2.svg" alt="man thinks" /></div>
     <div class="flex flex-col justify-center">
       <div class="flex w-full items-center justify-center flex-col">
