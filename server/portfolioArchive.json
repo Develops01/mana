@@ -9,19 +9,19 @@
     {
       "id": 2,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio2.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 3,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio3.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار اپلیکیشن"
     },
     {
       "id": 4,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio4.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار UI"
     },
     {
@@ -33,19 +33,19 @@
     {
       "id": 6,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio6.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "بهترین نمونه کارها"
     },
     {
       "id": 7,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio7.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 8,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio8.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -57,7 +57,7 @@
     {
       "id": 10,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio10.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
@@ -69,19 +69,19 @@
     {
       "id": 12,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio9.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 13,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio8.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار اپلیکیشن"
     },
     {
       "id": 14,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio7.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار UI"
     },
     {
@@ -93,19 +93,19 @@
     {
       "id": 16,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio5.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "بهترین نمونه کارها"
     },
     {
       "id": 17,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio4.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 18,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio3.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": 20,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
@@ -129,19 +129,19 @@
     {
       "id": 22,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio2.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 23,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار اپلیکیشن"
     },
     {
       "id": 24,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio5.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار UI"
     },
     {
@@ -153,19 +153,19 @@
     {
       "id": 26,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio6.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "بهترین نمونه کارها"
     },
     {
       "id": 27,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio7.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 28,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio9.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -177,19 +177,19 @@
     {
       "id": 30,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio10.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
       "id": 17,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio4.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 18,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio3.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -201,7 +201,7 @@
     {
       "id": 20,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
@@ -213,19 +213,19 @@
     {
       "id": 22,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio2.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 23,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار اپلیکیشن"
     },
     {
       "id": 24,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio5.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار UI"
     },
     {
@@ -237,19 +237,19 @@
     {
       "id": 26,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio6.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "بهترین نمونه کارها"
     },
     {
       "id": 27,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio7.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 28,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio9.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -261,19 +261,19 @@
     {
       "id": 30,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio10.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
       "id": 17,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio4.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 18,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio3.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -285,7 +285,7 @@
     {
       "id": 20,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
@@ -297,19 +297,19 @@
     {
       "id": 22,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio2.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 23,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار اپلیکیشن"
     },
     {
       "id": 24,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio5.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار UI"
     },
     {
@@ -321,19 +321,19 @@
     {
       "id": 26,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio6.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "بهترین نمونه کارها"
     },
     {
       "id": 27,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio7.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 28,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio9.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -345,19 +345,19 @@
     {
       "id": 30,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio10.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
       "id": 17,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio4.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 18,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio3.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -369,7 +369,7 @@
     {
       "id": 20,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     },
     {
@@ -381,19 +381,19 @@
     {
       "id": 22,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio2.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 23,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio1.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار اپلیکیشن"
     },
     {
       "id": 24,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio5.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار UI"
     },
     {
@@ -405,19 +405,19 @@
     {
       "id": 26,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio6.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "بهترین نمونه کارها"
     },
     {
       "id": 27,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio7.svg",
-      "name": "چه خبرشونه",
+      "name": "کهن دامداران سهامی خاص",
       "category": "نمونه کار طراحی سایت"
     },
     {
       "id": 28,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio9.svg",
-      "name": "چخه",
+      "name": "نوین آسمان گستر",
       "category": "نمونه کار اپلیکیشن"
     },
     {
@@ -429,7 +429,7 @@
     {
       "id": 30,
       "img": "http://localhost:3000/_nuxt/assets/image/portofolio/portofolio10.svg",
-      "name": "چه خبرمونه",
+      "name": "سوهانی ممد اغلو و پسران",
       "category": "نمونه کار SEO"
     }
   ]

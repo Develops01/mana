@@ -33,7 +33,7 @@
         :key="portfolio.id"
         class="flex flex-col justify-between items-center rounded-lg w-full h-full"
       >
-        <div class="flex justify-center items-center w-full h-64">
+        <div class="flex justify-center items-center w-full h-80">
           <img
             class="object-contain w-full h-full"
             :src="portfolio.img"
