@@ -1,3 +1,11 @@
 <template>
-  <h1>سلام دنیا</h1>
+  <Hero />
+  <AboutUs />
+  <Service />
+  <ProductSlider />
+  <Samples />
+  <Form />
+  <Testimonials />
+  <HomeBlogSlider />
+  <EmailSub />
 </template>

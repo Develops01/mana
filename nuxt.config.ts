@@ -10,6 +10,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
+  // generate: {
+  //   routes: ["/users/:id", "/blogs/:id", "/products/:id"],
+  // },
   modules: ["nuxt-swiper"],
 });
