@@ -29,8 +29,8 @@
 
           <div
             v-if="dropdownOpen"
+            @click.outside="dropdownOpen = false"
             class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-10"
-            @click.outside="closeDropdown"
           >
             <ul
               class="py-1"
@@ -95,11 +95,7 @@
           <div class="px-6 pt-4 pb-2">
             <span
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-              >#الگوریتم</span
-            >
-            <span
-              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-              >#اینستاگرام</span
+              >#{{ blog.category }}</span
             >
           </div>
         </div>
@@ -206,6 +202,5 @@ function changePage(page) {
 function selectCategory(category) {
   selectedCategory.value = category;
   currentPage.value = 1; // Reset to first page on category change
-  dropdownOpen.value = !dropdownOpen.value;
 }
 </script>
