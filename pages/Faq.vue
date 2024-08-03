@@ -1,8 +1,18 @@
 <template>
-  <div dir="rtl">
+  <div dir="rtl" class="relative">
+    <img
+      class="absolute right-0 top-[30rem] -z-10"
+      src="/assets/image/faq-circle.svg"
+      alt="circle"
+    />
     <div
-      class="relative flex flex-col justify-center mb-20 text-center bg-manaNavy p-14 w-full items-center"
+      class="relative flex flex-col justify-center mb-20 text-center p-14 w-full items-center"
     >
+      <img
+        class="absolute inset-0 -z-10 w-full h-full object-cover"
+        src="/assets/image/faq-banner.svg"
+        alt="banner"
+      />
       <div class="py-5">
         <p class="text-white text-3xl mb-5">سوالات متداول</p>
         <p class="text-white">
@@ -17,7 +27,7 @@
           v-for="(category, index) in categories"
           :key="index"
           :class="{
-            'text-blue-500 border-blue-500': activeCategory === category,
+            'text-manaNavy border-manaNavy': activeCategory === category,
             'border-transparent': activeCategory !== category,
           }"
           class="pb-2 px-4 border-b-2 focus:outline-none"
@@ -30,7 +40,7 @@
       <!-- FAQ Items -->
       <div v-for="faq in filteredFaqs" :key="faq.question" class="mb-4">
         <button
-          class="w-full text-left flex justify-between items-center p-4 bg-gray-100 rounded"
+          class="w-full text-left flex justify-between items-center p-4 bg-manaWhite2 rounded"
           @click="toggleFaq(faq)"
         >
           <span>{{ faq.question }}</span>
@@ -50,12 +60,12 @@
             ></path>
           </svg>
         </button>
-        <div v-if="faq.isOpen" class="p-4 text-gray-700">
+        <div v-if="faq.isOpen" class="p-4 bg-manaWhite2 text-manaGray">
           {{ faq.answer }}
         </div>
       </div>
     </div>
-    <div class="max-w-xl mx-auto p-6 bg-white shadow-md rounded">
+    <div class="max-w-5xl mx-auto p-6 bg-white shadow-md rounded">
       <h2 class="text-2xl font-semibold text-manaGreen mb-4 text-center">
         پاسخ‌گویی به سوالات
       </h2>
@@ -63,38 +73,44 @@
         سوال مورد نظر خود را ارسال کنید.
       </p>
       <form @submit.prevent="submitForm">
-        <div class="grid grid-cols-1 gap-4">
-          <input
-            type="text"
-            v-model="form.name"
-            placeholder="نام و نام خانوادگی را اینجا وارد نمایید"
-            class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
-            required
-          />
-          <input
-            type="text"
-            v-model="form.phone"
-            placeholder="شماره همراه"
-            class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
-            required
-          />
-          <input
-            type="email"
-            v-model="form.email"
-            placeholder="پست الکترونیکی"
-            class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
-            required
-          />
-          <select
-            v-model="form.subject"
-            class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
-            required
-          >
-            <option value="" disabled>موضوع</option>
-            <option value="question">سوال</option>
-            <option value="feedback">بازخورد</option>
-            <option value="other">دیگر</option>
-          </select>
+        <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 lg:flex-row">
+            <div class="flex flex-col w-full gap-4">
+              <input
+                type="text"
+                v-model="form.name"
+                placeholder="نام و نام خانوادگی را اینجا وارد نمایید"
+                class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
+                required
+              />
+              <input
+                type="text"
+                v-model="form.phone"
+                placeholder="شماره همراه"
+                class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
+                required
+              />
+            </div>
+            <div class="flex flex-col w-full gap-4">
+              <input
+                type="email"
+                v-model="form.email"
+                placeholder="پست الکترونیکی"
+                class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
+                required
+              />
+              <select
+                v-model="form.subject"
+                class="p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-manaGreen"
+                required
+              >
+                <option value="" disabled>موضوع</option>
+                <option value="question">سوال</option>
+                <option value="feedback">بازخورد</option>
+                <option value="other">دیگر</option>
+              </select>
+            </div>
+          </div>
           <textarea
             v-model="form.message"
             placeholder="توضیحات لازم را اینجا وارد کنید"
