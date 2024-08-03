@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full justify-center flex md:flex-row flex-col gap-20">
+  <div class="relative w-full justify-center flex md:flex-row flex-col gap-20">
     <div><img src="/assets/image/Slider_Picture_2.svg" alt="man thinks" /></div>
     <div class="flex flex-col justify-center">
       <div class="flex w-full items-center justify-center flex-col">
@@ -24,5 +24,10 @@
         </button>
       </div>
     </div>
+    <img
+      class="absolute -z-10 bottom-0 w-full object-fill"
+      src="/assets/image/Slider_Wave_1.svg"
+      alt="back ground"
+    />
   </div>
 </template>
