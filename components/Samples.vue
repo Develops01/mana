@@ -1,8 +1,10 @@
 <template>
-  <div class="flex flex-col justify-center items-center text-center my-20">
+  <div
+    class="relative flex flex-col justify-center items-center text-center mt-20"
+  >
     <div class="mb-8">
-      <p class="text-4xl text-manaGreen mb-4">نمونه کارهای تیم ما</p>
-      <p class="text-manaGray p-4 rounded-lg">
+      <p class="text-4xl text-manaWhite mb-4">نمونه کارهای تیم ما</p>
+      <p class="text-manaWhite2 p-4 rounded-lg">
         طراحی منحصر به فرد، سرعت لود بالا و پشتیبانی ۲۴ ساعته در ۷ روز هفته
       </p>
     </div>
@@ -42,5 +44,10 @@
     <button class="button01">
       <a class="my-14" href="#">نمونه کارهای بیشتر</a>
     </button>
+    <img
+      class="absolute inset-0 -z-10 w-full h-full object-cover"
+      src="/assets/image/portofolio/background-portofolio.svg"
+      alt="back ground"
+    />
   </div>
 </template>

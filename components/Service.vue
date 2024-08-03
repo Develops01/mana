@@ -3,7 +3,9 @@ import serviceData from "@/server/serviceData.json";
 const services = serviceData.serviceList;
 </script>
 <template>
-  <div class="flex w-full flex-col justify-center items-center">
+  <div
+    class="flex w-full flex-col justify-center items-center relative lg:px-20"
+  >
     <div class="flex flex-col text-center my-10">
       <p class="md:text-4xl text-3xl text-manaGreen">
         خدمات حرفه‌ای مانا افزار
@@ -18,7 +20,7 @@ const services = serviceData.serviceList;
       <div
         v-for="service in services"
         :key="service.id"
-        class="flex flex-col justify-between items-center border rounded-3xl p-5 pt-20 text-center relative flex-1"
+        class="flex flex-col justify-between items-center border rounded-3xl p-5 pt-20 text-center relative flex-1 bg-white shadow-lg"
       >
         <img class="absolute -top-12" :src="service.picture" alt="" />
         <div class="flex flex-col flex-grow justify-center items-center">
@@ -30,5 +32,15 @@ const services = serviceData.serviceList;
         </div>
       </div>
     </div>
+    <img
+      class="absolute right-10 top-20"
+      src="/assets/image/eyeGlass.svg"
+      alt="eye glass"
+    />
+    <img
+      class="absolute top-0 right-0 inset-0 -z-10 w-full h-full object-cover"
+      src="/assets/image/service-wave.svg"
+      alt="service wave"
+    />
   </div>
 </template>

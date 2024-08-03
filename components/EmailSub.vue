@@ -25,7 +25,7 @@
         /></a>
       </div>
       <div
-        class="flex items-center bg-white shadow-md rounded-full overflow-hidden"
+        class="flex items-center bg-white shadow-md rounded-xl overflow-hidden"
       >
         <input
           type="email"
@@ -33,7 +33,7 @@
           class="flex-grow px-4 py-2 text-gray-700 focus:outline-none"
         />
         <button
-          class="bg-manaNavy text-white px-6 py-2 rounded-full hover:bg-manaNavy2 focus:outline-none"
+          class="bg-manaNavy text-white px-6 py-3 rounded-xl hover:bg-manaNavy2 focus:outline-none"
         >
           ثبت ایمیل
         </button>

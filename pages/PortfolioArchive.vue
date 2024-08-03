@@ -1,9 +1,24 @@
 <template>
-  <div dir="rtl">
+  <div dir="rtl" class="relative">
     <!-- Filter Options -->
+    <img
+      class="absolute right-0 top-[30rem] -z-10"
+      src="/assets/image/portfolio-circle2.svg"
+      alt="circle"
+    />
+    <img
+      class="absolute left-0 top-[80rem] -z-10"
+      src="/assets/image/portfolio-circle1.svg"
+      alt="circle"
+    />
     <div
-      class="relative flex flex-col justify-center mb-20 text-center bg-manaNavy p-14 w-full items-center"
+      class="relative flex flex-col justify-center mb-20 text-center p-14 w-full items-center"
     >
+      <img
+        class="absolute inset-0 -z-10 w-full h-full object-cover"
+        src="/assets/image/portfolio-banner.svg"
+        alt="banner"
+      />
       <div class="py-5">
         <p class="text-white text-3xl">نمونه کار ها</p>
         <p class="text-white">مانا چگونه به موفقیت دیگران کمک کرده است</p>

@@ -1,9 +1,24 @@
 <template>
-  <div dir="rtl">
+  <div dir="rtl" class="relative">
+    <img
+      class="absolute right-0 top-[30rem] -z-10"
+      src="/assets/image/blog-circle1.svg"
+      alt="circle"
+    />
+    <img
+      class="absolute left-0 top-[80rem] -z-10"
+      src="/assets/image/blog-circle2.svg"
+      alt="circle"
+    />
     <!-- Filter Options -->
     <div
-      class="relative flex flex-col justify-center mb-20 text-center bg-manaNavy pt-10 w-full items-center"
+      class="relative flex flex-col justify-center mb-20 text-center pt-10 w-full items-center"
     >
+      <img
+        class="absolute inset-0 -z-10 w-full h-full object-cover"
+        src="/assets/image/blog-banner.svg"
+        alt="banner"
+      />
       <div class="py-5">
         <p class="text-white text-3xl">وبلاگ طراحی سایت</p>
         <p class="text-white">
@@ -60,7 +75,7 @@
         href="#"
         v-for="blog in paginatedBlogData"
         :key="blog.id"
-        class="max-w-sm w-full lg:max-w-full lg:flex mt-10 block"
+        class="max-w-sm w-full lg:max-w-full lg:flex mt-10 block bg-white"
       >
         <div class="rounded overflow-hidden shadow-lg h-full flex flex-col">
           <img

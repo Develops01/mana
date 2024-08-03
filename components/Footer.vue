@@ -1,5 +1,8 @@
 <template>
-  <footer dir="rtl" class="flex flex-col items-center md:mx-20 text-right mb-5">
+  <footer
+    dir="rtl"
+    class="relative bg-manaWhite2 flex flex-col items-center md:px-20 text-right pb-5"
+  >
     <div class="flex flex-col md:flex-row">
       <div class="p-6 mt-8">
         <div class="container mx-auto">
@@ -63,5 +66,10 @@
       کليه حقوق محصولات و محتوای اين سایت متعلق به مانا افزار می باشد و هر گونه
       کپی برداری از محتوا و محصولات سایت غیر مجاز و بدون رضایت ماست.
     </p>
+    <img
+      class="absolute inset-0 w-full"
+      src="/assets/image/footer/footer-wave.svg"
+      alt="back ground"
+    />
   </footer>
 </template>
