@@ -54,8 +54,8 @@
               aria-labelledby="options-menu"
             >
               <li
-                v-for="category in categories"
-                :key="category"
+                v-for="(category, index) in categories"
+                :key="index"
                 class="cursor-pointer px-4 py-2 rounded hover:bg-manaNavy2 hover:text-white transition-colors duration-300"
                 :class="{
                   'bg-manaNavy text-white': selectedCategory === category,
@@ -73,8 +73,8 @@
     <div class="md:mt-0 xl:px-[14rem] container mx-auto p-4" :class="gridClass">
       <a
         href="#"
-        v-for="blog in paginatedBlogData"
-        :key="blog.id"
+        v-for="(blog, index) in paginatedBlogData"
+        :key="blog.id + '-' + index"
         class="max-w-sm w-full lg:max-w-full lg:flex mt-10 block bg-white"
       >
         <div class="rounded overflow-hidden shadow-lg h-full flex flex-col">

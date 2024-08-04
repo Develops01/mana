@@ -28,8 +28,8 @@
       >
         <ul class="flex md:flex-row flex-col justify-center gap-4">
           <li
-            v-for="category in categories"
-            :key="category"
+            v-for="(category, index) in categories"
+            :key="index"
             class="cursor-pointer px-4 py-2 rounded hover:bg-manaNavy2 hover:text-white transition-colors duration-300"
             :class="{
               'bg-manaNavy text-white': selectedCategory === category,
@@ -44,8 +44,8 @@
     <!-- Portfolio Items -->
     <div class="md:mt-0 mt-[20rem] xl:px-[14rem]" :class="gridClass">
       <div
-        v-for="portfolio in paginatedPortfolioData"
-        :key="portfolio.id"
+        v-for="(portfolio, index) in paginatedPortfolioData"
+        :key="portfolio.id + '-' + index"
         class="flex flex-col justify-between items-center rounded-lg w-full h-full"
       >
         <div class="flex justify-center items-center w-full h-80">

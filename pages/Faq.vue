@@ -36,9 +36,12 @@
           {{ category }}
         </button>
       </div>
-
       <!-- FAQ Items -->
-      <div v-for="faq in filteredFaqs" :key="faq.question" class="mb-4">
+      <div
+        v-for="(faq, index) in filteredFaqs"
+        :key="faq.id + '-' + index"
+        class="mb-4"
+      >
         <button
           class="w-full text-left flex justify-between items-center p-4 bg-manaWhite2 rounded"
           @click="toggleFaq(faq)"
